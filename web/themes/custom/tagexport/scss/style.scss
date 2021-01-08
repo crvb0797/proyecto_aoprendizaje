@@ -1,0 +1,44 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import "../bootstrap/assets/stylesheets/bootstrap";
+
+// Base-theme overrides.
+@import "drupal-bootstrap";
+
+//Navbar
+@import "components/block/block--navbar";
+
+//banner -- slider
+@import "components/block/block--banner";
+
+//slider de herramientas y plataformas
+@import "components/block/bock--herramientas";
+
+// Noticias Agexport
+@import "./components/block/block--notice";
+
+//barra lateral
+@import "components/block/block--barra-lateral";
+
+//Publicidad
+@import "components/block/block--publicidad";
+
+//Nodo de industria
+@import "components/node/node--industry";
+
+//Nodo de asociarte 
+@import "components/node/node--asociarse";
+
+//Nodo de cifras de exportacion
+@import "components/node/node--cifras";
+
+//Nodo de plan de trabajo
+@import "components/node/node--plan";
+
+//footer
+@import "components/block/block--footer";
+
+//Footer social
+@import "components/block/block--social";

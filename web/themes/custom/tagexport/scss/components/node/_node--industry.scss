@@ -1,0 +1,58 @@
+/* Area de acerca de la industria */
+
+article.industry {
+  padding: 0 60px;
+}
+.field--name-field-about-industry {
+  margin-bottom: 60px;
+}
+.field--name-field-about-industry > .field--label {
+  color: $color-title;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.field--name-field-about-industry > .field--item {
+  color: $color-text;
+  span#more {
+    display: none;
+  }
+  button#btn {
+    border: none;
+    background-color: transparent;
+    color: $color-links;
+    outline: none;
+    padding: 0;
+  }
+}
+
+#btn:hover {
+  text-decoration: underline;
+}
+
+/* Area de estadisticas de la industria */
+
+.field--name-field-industry-statistics {
+  margin-bottom: 60px;
+  > .field--label {
+    color: $color-title;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  > .field--item > img {
+    width: 100%;
+    max-width: 475px;
+    margin-left: 138px;
+  }
+}
+
+/* Areas de apoyo de la industria */
+.field--name-field-support-areas {
+  margin-bottom: 60px;
+  > .field--label {
+    color: $color-title;
+    font-size: 30px;
+    font-weight: 400;
+  }
+}

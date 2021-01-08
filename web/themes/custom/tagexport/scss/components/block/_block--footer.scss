@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  /*   padding: 25px; */
+  background: #444444;
+  & > div.region > nav > ul > li > a {
+    color: white;
+  }
+  & > div.region > nav > ul > li > a:hover {
+    background-color: transparent;
+  }
+  div.logo > a > img {
+    width: 200px;
+  }
+}
+
+.footer > div.region-footer {
+  display: flex;
+}
+
+.footer
+  > div.region-footer
+  > nav.contextual-region
+  > ul.menu--menu-1-footer
+  > li
+  > a {
+  line-height: 2px;
+}
+
+.footer > div.region-footer > nav.contextual-region > ul.menu--menu-1-footer {
+  margin: 0 60px;
+}
+
+.footer
+  > div.region-footer
+  > nav.contextual-region
+  > ul.menu--menu-2-footer
+  > li
+  > a {
+  line-height: 2px;
+}
+
+.footer > div.region-footer > nav.contextual-region > ul.menu--menu-2-footer {
+  margin: 0 26px;
+}
+
+.footer > .contacto {
+  margin: 0 100px;
+  h3.title {
+    color: white;
+    margin-bottom: 18px;
+    margin-top: 0px;
+    font-size: 16px;
+  }
+  div.direccion {
+    color: white;
+    line-height: 26px;
+  }
+  div.telefonos {
+    color: white;
+    margin-top: 23px;
+  }
+}

@@ -1,0 +1,29 @@
+type: theme
+base theme: bootstrap
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+name: "Alimentos y bebidas Agexport"
+description: "Proyecto para pagina de alimentos y bebidas"
+package: "Bootstrap"
+
+regions:
+  navigation: "Navigation"
+  navigation_collapsible: "Navigation (Collapsible)"
+  header: "Top Bar"
+  highlighted: "Highlighted"
+  help: "Help"
+  content: "Content"
+  sidebar_first: "Primary"
+  banner: "Banner/slider"
+  herramientas: "herramientas y plataformas"
+  noticias: "noticias agexport"
+  sidebar_second: "Secondary"
+  footer: "Footer"
+  footer_social: "Footer social"
+  page_top: "Page top"
+  page_bottom: "Page bottom"
+
+libraries-extend:
+  bootstrap/framework:
+    - tagexport/framework

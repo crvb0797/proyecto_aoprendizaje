@@ -1,0 +1,33 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+// Set the directory for the theme root used to locate images, fonts etc.
+$theme-root: "..";
+
+// Set other directories relative to theme root.
+$image-path: "#{$theme-root}/images";
+$icon-font-path: "#{$theme-root}/bootstrap/assets/fonts/bootstrap/";
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base: #3f3f3f !default;
+
+//colores personalizados
+$color-title: #0c2c51;
+$color-links: #318ffc;
+$color-text: #8b8a8a;
+$color-navbar: #10245e;
+$color-botones: #0081ff;
+$color-claro: white;
+$color-primary: #fec900;

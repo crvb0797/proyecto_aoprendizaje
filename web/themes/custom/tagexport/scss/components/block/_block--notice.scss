@@ -1,0 +1,77 @@
+.container-notice {
+  position: relative;
+}
+
+.banner-notice {
+  width: 100%;
+  height: 321px;
+  position: absolute;
+  background-image: url(https://picsum.photos/id/392/1583/300?grayscale);
+  opacity: 0.2;
+  z-index: -1;
+  margin: 0;
+}
+
+.notice-header {
+  margin: 20px 0;
+  .notice-title > h2 {
+    font-size: 43px;
+    color: #18375a;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+  .notice-logo {
+    padding: 25px;
+    .agexport-hoy {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      img {
+        width: 187px;
+      }
+    }
+    .data-export {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: -17px;
+      img {
+        width: 187px;
+      }
+    }
+  }
+}
+
+/* Estilos de la card */
+
+.card-notice {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  .card {
+    width: 246px;
+    .thumbnail > .caption {
+      .link-card {
+        color: skyblue;
+        font-size: 10px;
+        text-align: left;
+        margin-left: -10px;
+      }
+      h3 {
+        font-size: 14px;
+        color: #18375a;
+        font-weight: 500;
+        padding: 0 8px;
+      }
+      p {
+        margin-top: 65px;
+        a {
+          padding: 0 8px;
+          margin-top: 30px;
+          color: red;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+div.form-group {
+  padding: 0px 15px;
+  div.contextual-region {
+    margin-bottom: 25px;
+  }
+}
+
+section.block-views-blockslider-block-1 {
+  margin-bottom: 60px;
+}
+
+.info-banner {
+  background-color: transparent;
+  position: absolute;
+  top: 53%; /* 57 */
+  left: 62px;
+  .title-banner > h1 {
+    font-size: 45px;
+    line-height: 0;
+    color: $color-claro;
+  }
+  .title-banner > span {
+    font-size: 70px;
+    font-weight: 600;
+    color: $color-claro;
+  }
+  .discription-banner > span {
+    font-size: 20px;
+    color: $color-claro;
+  }
+  .buttom-more {
+    padding: 6px;
+    background-color: $color-botones;
+    width: 130px;
+    text-align: center;
+    margin: 15px 0;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.views_slideshow_cycle_slide {
+  position: relative;
+}
